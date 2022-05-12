@@ -1,0 +1,113 @@
+.body{
+	height: 0;
+	padding: 0;
+
+}
+.header{
+	border-radius: 6px solid #677a7c;
+	min-height: 30px;
+	height: 40px;
+	border-top: 6px solid green;
+	padding: 5px 12px;
+	line-height: 30px;
+}
+.header img{
+  width: 98px;
+}
+.account{
+
+	float: right;
+}
+.account img{
+		width: 25px;
+		height: 25px;
+		vertical-align: middle;
+}
+.content{
+	background-color: #e5e5e5;
+	height: calc(100vh-50px);
+	padding: 10px;
+}
+.title-bar a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.title-bar b{
+    font-size: 17px;
+
+}
+.add-record{
+    background-color: black;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 3px 10px;
+    margin-left: 10px;
+
+}
+.left-contet{
+    background-color: rgb(216, 211, 211);
+    border-radius: 4px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin: 30px 10px 10px 0px;
+}
+.right-contet{
+    background-color: rgb(216, 211, 211);
+    border-radius: 4px;
+    width: 400px;
+    height: 300px;
+    float: left;
+    margin: 30px;
+    
+}
+table{
+    border-spacing: 0PX;
+}
+.category{
+    font-size: 13px;
+    font-weight: bold;
+    padding: 10px 10px 10px 5px;
+}
+.left-td{
+    background-color: gray;
+    color: white;
+    border-bottom: 1px solid #ccc;
+    font-size: 13px;
+    padding: 5px 10px;
+    min-height: 30px;
+    min-width: 100px;
+    width: 80px;
+    box-sizing: border-box;
+}
+.right-td{
+    border: 1px solid #ccc;
+    font-size: 13px;
+    padding: 5px 10px;
+    min-height: 30px;
+    min-width: 100px;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+.right-td select{
+    border: 1px solid ;
+    border-radius: 4px;
+    height: 27px;
+    width: 100%;
+}
+#detail-textarea{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    min-height: 50px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.detall{
+    
+    border: 1px solid white;
+    border-radius: 4px;
+    margin: 10px;
+    height: 117px;
+}
